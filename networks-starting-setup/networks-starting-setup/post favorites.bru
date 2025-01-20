@@ -1,0 +1,19 @@
+meta {
+  name: post favorites
+  type: http
+  seq: 4
+}
+
+post {
+  url: http://localhost:3000/favorites
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+    "name": "query",
+    "type": "movie",
+    "url": "http://localhost:3000/favorites"
+  }
+}
