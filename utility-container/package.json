@@ -1,23 +1,20 @@
 {
-  "name": "stalecas",
+  "name": "app",
   "version": "1.0.0",
-  "main": "app.js",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [
-    "finance"
-  ],
-  "author": "lucas",
+  "author": "",
   "license": "ISC",
-  "description": "finance app",
+  "description": "",
   "dependencies": {
-    "axios": "^1.7.9",
     "body-parser": "^1.20.3",
     "ejs": "^3.1.10",
-    "express": "^4.21.2"
-  },
-  "devDependencies": {
-    "nodemon": "^3.1.9"
+    "express": "^4.21.2",
+    "pg": "^8.13.1"
   }
 }

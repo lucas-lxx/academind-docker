@@ -1,0 +1,12 @@
+services:
+  npm:
+    build: 
+      context: .
+      dockerfile: "Dockerfile"
+      args:
+        GROUP_ID: 1000
+        USER_ID: 1000
+    volumes:
+      - "./:/app:cached"
+    stdin_open: true
+    tty: true
