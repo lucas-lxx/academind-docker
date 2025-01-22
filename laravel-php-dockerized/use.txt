@@ -1,0 +1,2 @@
+-- build source folder
+mkdir src && docker compose run --rm --build composer create-project --prefer-dist laravel/laravel .
